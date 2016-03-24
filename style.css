@@ -35,5 +35,13 @@ button {
 button:hover {
   background-color: #1a6eac;
 }
+
+/* Small Screen */
+@media (max-width: 768px) {
+  #main-content {
+    margin-top: -70px;
+    padding-bottom: 70px;
+  }
+}
   
   
