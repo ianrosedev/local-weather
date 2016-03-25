@@ -35,6 +35,9 @@ button {
 button:hover {
   background-color: #1a6eac;
 }
+button:focus {
+  outline: 0;
+}
 
 /* Small Screen */
 @media (max-width: 768px) {
